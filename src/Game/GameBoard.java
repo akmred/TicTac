@@ -22,6 +22,22 @@ public class GameBoard extends JFrame {
     }
 
     /**
+     * Получаем метод dimension
+     * */
+    public int getDimension(){
+
+        return this.dimension;
+    }
+
+    /**
+     * Метод возвращает матрицу игры
+     * @return  gameField
+     * */
+    public char[][] getGameField(){
+        return gameField;
+    }
+
+    /**
      * Метод инициализации и отрисовки игрового поля
      * */
     private void initField(){
@@ -108,21 +124,6 @@ public class GameBoard extends JFrame {
    }
 
    /**
-    * Проверка победы по столбцам и линиям
-    * @return флаг победы
-    * */
-   boolean checkWin(){
-        boolean result = false;
-        char playerSymbol = getGame().getCurrentPlayer().getPlayerSing();
-
-        if(checkWinDiagonals(playerSymbol) || checkWinLines(playerSymbol)){
-            result = true;
-        }
-
-        return result;
-   }
-
-   /**
     * Метод проверки заполнености поля
     * @return boolean
     * */
@@ -146,65 +147,6 @@ public class GameBoard extends JFrame {
     }
 
 
-    /**
-    * Проверка победы по столбцам и линиям
-    * @return флаг победы
-    * */
-   private boolean checkWinLines(char playerSymbol){
-       boolean cols, rows, result;
-
-       result = false;
-
-       for (int col=0; col < dimension; col ++){
-
-           cols = true;
-           rows = true;
-           for (int row = 0; row < dimension; row++){
-
-               cols &= (gameField[col][row] == playerSymbol);
-               rows &= (gameField[row][col] == playerSymbol);
-
-           }
-
-           // Это условие после каждой проверки колонки и столбца
-           // позволяет остановить дальнейшее выполнение, без проверки
-           // всех остальных столбцов и строк
-           if (cols || rows){
-               result = true;
-               break;
-           }
-
-           if(result){
-               break;
-           }
-
-       }
-
-       return result;
-   }
-
-   /**
-    * Проверка выигрышных комбинаций на диагоналях
-    * @return флаг победы
-    * */
-   private boolean checkWinDiagonals(char playerSymbol){
-
-       boolean leftRight, rightLeft, result;
-       leftRight = true;
-       rightLeft = true;
-       result = false;
-
-       for (int i = 0; i < dimension; i ++){
-           leftRight &= (gameField[i][i] == playerSymbol); // Оптимизация кода, чтобы не было через if
-           rightLeft &= (gameField[dimension - i - 1][i] == playerSymbol);
-       }
-
-       if(leftRight || rightLeft){
-           result = true;
-       }
-
-       return result;
-   }
 
 
 }

@@ -8,11 +8,14 @@ public class GameActionListener implements ActionListener {
     private int row;
     private int cell;
     private GameButton button;
+    private ClassCheckWIn winGame;
 
-    public GameActionListener(int row, int cell, GameButton gButton){
+    public GameActionListener(int row, int cell, GameButton gButton, ClassCheckWIn winGame){
         this.row = row;
         this.cell = cell;
         this.button = gButton;
+        this.winGame = winGame;
+
     }
 
     @Override
@@ -63,7 +66,7 @@ public class GameActionListener implements ActionListener {
         board.getButton(cellIndex).setText(Character.toString(board.getGame().getCurrentPlayer().getPlayerSing()));
 
         // Проверить победу
-        if (board.checkWin()){
+        if (winGame.checkWin()){
             button.getBoard().getGame().showMessage("Компьютер выиграл!");
             board.emptyField();
         }
@@ -86,7 +89,7 @@ public class GameActionListener implements ActionListener {
         // Обновить содержимое кнопки
         button.setText(Character.toString(board.getGame().getCurrentPlayer().getPlayerSing()));
 
-        if(board.checkWin()){
+        if(winGame.checkWin()){
             button.getBoard().getGame().showMessage("Вы выиграли");
             board.emptyField();
         }

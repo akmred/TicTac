@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde556e5-4468-424b-8eb0-544c1fc4f09f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/ClassCheckWIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/GameActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/GameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameButton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +32,7 @@
   </component>
   <component name="ProjectId" id="1RUjSJCZqTa9x3PNIgTsavXwei8" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -68,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -20,12 +20,8 @@ public class Game {
      * Метод передачи хода
      * */
     void passTurn(){
-  /*      if(playersTurn == 0)
-            playersTurn = 1;
-        else
-            playersTurn = 0;
-*/
-        this.playersTurn = (playersTurn == 0)? 1:0;
+
+        playersTurn = (playersTurn == 0)? 1:0;
 
     }
 
