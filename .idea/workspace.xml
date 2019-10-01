@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde556e5-4468-424b-8eb0-544c1fc4f09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game/ClassCheckWIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/GameActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameActionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/GameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameButton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +63,14 @@
       <option name="presentableId" value="Default" />
       <updated>1569728566875</updated>
     </task>
+    <task id="LOCAL-00001" summary="выделил класс ClassCheckWin">
+      <created>1569953921490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569953921490</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="выделил класс ClassCheckWin" />
+    <option name="LAST_COMMIT_MESSAGE" value="выделил класс ClassCheckWin" />
   </component>
 </project>
