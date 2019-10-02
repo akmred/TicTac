@@ -66,6 +66,4 @@ public class GameActionListener implements ActionListener {
         }
 
     }
-
-
 }

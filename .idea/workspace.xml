@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cde556e5-4468-424b-8eb0-544c1fc4f09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Game/ClassAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/GameActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameActionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/GameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameButton.java" afterDir="false" />
-    </list>
+    <list default="true" id="cde556e5-4468-424b-8eb0-544c1fc4f09f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569953921490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="выделил класс ClassCheckWin">
+      <created>1569954704784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569954704784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

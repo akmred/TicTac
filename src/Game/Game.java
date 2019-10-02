@@ -41,6 +41,4 @@ public class Game {
         JOptionPane.showMessageDialog(board, messageText);
     }
 
-
-
 }
