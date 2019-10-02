@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde556e5-4468-424b-8eb0-544c1fc4f09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/ClassAI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToeClass/Game/GameButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/GameActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/GameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/GameButton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

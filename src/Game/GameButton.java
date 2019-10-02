@@ -12,12 +12,13 @@ public class GameButton extends JButton {
         buttonIndex = gameButtonIndex;
         board = currentGameBoard;
         winGame = new ClassCheckWIn(board.getDimension(), board);
+        ClassAI ai = new ClassAI(winGame, this);
 
         int rowNum = buttonIndex / GameBoard.dimension;
         int cellNum = buttonIndex % GameBoard.dimension;
 
         setSize(GameBoard.cellSize - 5, GameBoard.cellSize - 5);
-        addActionListener(new GameActionListener(rowNum, cellNum, this, winGame));
+        addActionListener(new GameActionListener(rowNum, cellNum, this, winGame, ai));
     }
 
     public GameBoard getBoard()

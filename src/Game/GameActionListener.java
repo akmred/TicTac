@@ -9,12 +9,14 @@ public class GameActionListener implements ActionListener {
     private int cell;
     private GameButton button;
     private ClassCheckWIn winGame;
+    private ClassAI ai;
 
-    public GameActionListener(int row, int cell, GameButton gButton, ClassCheckWIn winGame){
+    public GameActionListener(int row, int cell, GameButton gButton, ClassCheckWIn winGame, ClassAI ai){
         this.row = row;
         this.cell = cell;
         this.button = gButton;
         this.winGame = winGame;
+        this.ai = ai;
 
     }
 
@@ -34,47 +36,13 @@ public class GameActionListener implements ActionListener {
 
             }
             else {
-                updateByAiData(board);
+                ai.updateByAiData(board);
             }
 
         }
         else {
             board.getGame().showMessage("Некорректный ход!");
         }
-    }
-
-    /**
-     * Ход компьютера
-     * @param board GameBoard - ссылка на игровое поле
-     * */
-    private void updateByAiData(GameBoard board){
-        // Генерация координат хода компьютера
-        int x, y;
-        Random rnd = new Random();
-
-        do {
-            x = rnd.nextInt(GameBoard.dimension);
-            y = rnd.nextInt(GameBoard.dimension);
-        }
-        while (!board.isTurnable(x,y));
-
-        // Обновить матрицу игры
-        board.updateGameField(x, y);
-
-        // Обновить  содержимое кнопки
-        int cellIndex = GameBoard.dimension*x + y;
-        board.getButton(cellIndex).setText(Character.toString(board.getGame().getCurrentPlayer().getPlayerSing()));
-
-        // Проверить победу
-        if (winGame.checkWin()){
-            button.getBoard().getGame().showMessage("Компьютер выиграл!");
-            board.emptyField();
-        }
-        else {
-            // Передать ход
-            board.getGame().passTurn();
-        }
-
     }
 
     /**
